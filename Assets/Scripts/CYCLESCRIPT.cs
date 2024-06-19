@@ -19,7 +19,6 @@ public class CYCLESCRIPT : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-
             DeactivateAll();
             arrayObjetos[idx].SetActive(true);
             if (idx != arrayObjetos.Length - 1)
@@ -30,7 +29,6 @@ public class CYCLESCRIPT : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-
             DeactivateAll();
             arrayObjetos[idx].SetActive(true);
             if (idx != 0)
